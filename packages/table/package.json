@@ -1,5 +1,5 @@
 {
-    "name": "@blueprintjs/table",
+    "name": "blueprintjs_table",
     "version": "3.9.12",
     "description": "Scalable interactive table component",
     "main": "lib/cjs/index.js",

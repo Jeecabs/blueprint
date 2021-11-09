@@ -100,34 +100,34 @@ export function getHotkeysFromProps(props: TableProps, hotkeysImpl: TableHotkeys
                 label: "Move focus cell down",
                 onKeyDown: hotkeysImpl.handleFocusMoveDown,
             },
-            {
-                allowInInput: true,
-                combo: "tab",
-                group: "Table",
-                label: "Move focus cell tab",
-                onKeyDown: hotkeysImpl.handleFocusMoveRightInternal,
-            },
-            {
-                allowInInput: true,
-                combo: "shift+tab",
-                group: "Table",
-                label: "Move focus cell shift tab",
-                onKeyDown: hotkeysImpl.handleFocusMoveLeftInternal,
-            },
-            {
-                allowInInput: true,
-                combo: "enter",
-                group: "Table",
-                label: "Move focus cell enter",
-                onKeyDown: hotkeysImpl.handleFocusMoveDownInternal,
-            },
-            {
-                allowInInput: true,
-                combo: "shift+enter",
-                group: "Table",
-                label: "Move focus cell shift enter",
-                onKeyDown: hotkeysImpl.handleFocusMoveUpInternal,
-            },
+            // {
+            //     allowInInput: true,
+            //     combo: "tab",
+            //     group: "Table",
+            //     label: "Move focus cell tab",
+            //     onKeyDown: hotkeysImpl.handleFocusMoveRightInternal,
+            // },
+            // {
+            //     allowInInput: true,
+            //     combo: "shift+tab",
+            //     group: "Table",
+            //     label: "Move focus cell shift tab",
+            //     onKeyDown: hotkeysImpl.handleFocusMoveLeftInternal,
+            // },
+            // {
+            //     allowInInput: true,
+            //     combo: "enter",
+            //     group: "Table",
+            //     label: "Move focus cell enter",
+            //     onKeyDown: hotkeysImpl.handleFocusMoveDownInternal,
+            // },
+            // {
+            //     allowInInput: true,
+            //     combo: "shift+enter",
+            //     group: "Table",
+            //     label: "Move focus cell shift enter",
+            //     onKeyDown: hotkeysImpl.handleFocusMoveUpInternal,
+            // },
         );
     }
 
